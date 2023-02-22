@@ -1,0 +1,15 @@
+D:\Antra\C_Sharp\AS2\AS2\bin\Debug\net6.0\AS2.exe
+D:\Antra\C_Sharp\AS2\AS2\bin\Debug\net6.0\AS2.deps.json
+D:\Antra\C_Sharp\AS2\AS2\bin\Debug\net6.0\AS2.runtimeconfig.json
+D:\Antra\C_Sharp\AS2\AS2\bin\Debug\net6.0\AS2.dll
+D:\Antra\C_Sharp\AS2\AS2\bin\Debug\net6.0\AS2.pdb
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.csproj.AssemblyReference.cache
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.AssemblyInfoInputs.cache
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.AssemblyInfo.cs
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.csproj.CoreCompileInputs.cache
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.dll
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\refint\AS2.dll
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.pdb
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\AS2.genruntimeconfig.cache
+D:\Antra\C_Sharp\AS2\AS2\obj\Debug\net6.0\ref\AS2.dll
