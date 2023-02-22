@@ -1,4 +1,4 @@
-Use [Program.cs](https://github.com/ligahee/C_Sharp/blob/48ac32c64c188a61be32e40a28c66cd0271f8df2/AS2/AS2/Program.cs) to choose the questions, here are the options:
+Use [Program.cs](https://github.com/ligahee/C_Sharp/blob/ASC2/AS2/AS2/Program.cs) to choose the questions, here are the options:
 
 Input the question Number
 ### Practice Arrays
