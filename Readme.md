@@ -99,13 +99,26 @@ Initialization **[Optional]**: This is the code that is executed only once befor
 Condition **[required]**: This is a boolean expression that is evaluated at the beginning of each loop iteration. If it is true, the loop body is executed; otherwise, the loop terminates. This part is required.
 
 Iteration **[Optional]**: This is the code that is executed at the end of each loop iteration, after the loop body has been executed. It is used to update the loop variable and is optional.
+
 7. What is the difference between the = and == operators?
 
    the = operator is used for assignment, which means that it assigns a value to a variable. For example, x = 5 assigns the value 5 to the variable x.
 
     the == operator is used for equality comparison, which means that it tests whether two values are equal or not.
 8. Does the following statement compile? for ( ; true; ) ;
+
+   Yes, it compiles. This is an example of an infinite loop that will keep running until it is interrupted or stopped by some external means, such as a break statement or an exception. In this loop, the initialization statement is empty, the condition expression is always true, and the increment expression is also empty, so the loop will continue indefinitely.
 9. What does the underscore _ represent in a switch expression?
+
+   In C# 8.0 and later, the underscore symbol (_) can be used as a discard pattern in switch expressions. It allows you to ignore a particular case in the expression without having to define a local variable or constant for that value.
+   `int value = 2;
+   string result = value switch
+   {
+   1 => "one",
+   2 => "two",
+   _ => "other"
+   };`
 10. What interface must an object implement to be enumerated over by using the foreach
     statement?
 
+    To be enumerated over by using the foreach statement, an object must implement the IEnumerable or IEnumerable<T> interface. The IEnumerable interface provides a non-generic GetEnumerator method that returns an IEnumerator object, which can be used to iterate over a collection. The IEnumerable<T> interface is a generic version of IEnumerable and is used to iterate over strongly typed collections. Both interfaces are used to provide a way to enumerate over a collection, and they are essential for using the foreach statement in C#.
