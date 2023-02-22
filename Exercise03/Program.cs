@@ -4,8 +4,7 @@ public class Program
 {
     static void Main(String[] args)
     {
-        Console.Write("Enter a number of question: \n 1.FizzBuzz\n 2.preceding code\n 3.Make a guess between 1-3\n 4.PrintPyramid\n  5.GuessNum\n 6.ToNextAnniversary\n");
-        
+        Console.Write("Enter a number of question: \n 1.FizzBuzz\n 2.preceding code\n 3.Make a guess between 1-3\n 4.PrintPyramid\n  5.GuessNum\n 6.ToNextAnniversary\n 7.Time ofDay\n 8.TwentyFour.\n ");
         int ques = int.Parse(Console.ReadLine());
         if (ques == 1)
         {
@@ -13,8 +12,6 @@ public class Program
             q1.PlayGame();
         } else if (ques == 2)
         {
-            Console.WriteLine("The code will produce an infinite loop, as the byte data type has a maximum value of 255,");
-            Console.WriteLine("To warn about this problem, I add a conditional statement within the loop that checks whether i has reached its maximum value and breaks out of the loop");
             PrecedingCode q2 = new PrecedingCode();
             q2.CorretedCode();
         } else if (ques == 3)
@@ -42,6 +39,17 @@ public class Program
             
             ToNextAnniversary q6 = new ToNextAnniversary();
             q6.BirthdayCalculator(year, month, day);
+        } else if (ques == 7)
+        {
+            TimeofDay q7 = new TimeofDay();
+            q7.Greet();
+        } else if (ques == 8)
+        {
+            TwentyFour q8 = new TwentyFour();
+            q8.Add();
+        }else
+        {
+            Console.WriteLine("Invalid question number.\n ");
         }
         
 

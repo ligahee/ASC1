@@ -1,4 +1,5 @@
 ﻿## Practice loops and operators
+Use `Program.cs` to choose, here are the options
 1. `FizzBuzz.cs` 
    a group word game for children to teach them about division. Players take turns
    to count incrementally, replacing any number divisible by three with the word /fizz/, any
@@ -36,4 +37,21 @@
    Also, tell the user if their answer is outside of the range of numbers that are valid guesses
    (less than 1 or more than 3). You can convert the user's typed answer from a string to an
    int using this code
-6. 
+6. `ToNextAnniversary.cs` Write a simple program that defines a variable representing a birth date and calculates
+   how many days old the person with that birth date is currently.
+   For extra credit, output the date of their next 10,000 day (about 27 years) anniversary.
+   Note: once you figure out their age in days, you can calculate the days until the next
+   anniversary using int daysToNextAnniversary = 10000 - (days % 10000); .
+7. `TimeofDay.cs` Write a program that greets the user using the appropriate greeting for the time of day.
+   Use only if , not else or switch , statements to do so. Be sure to include the following
+   greetings:
+   "Good Morning"
+   "Good Afternoon"
+   "Good Evening"
+   "Good Night
+8. `TwentyFour.cs` Write a program that prints the result of counting up to 24 using four different increments.
+   First, count by 1s, then by 2s, by 3s, and finally by 4s.
+   Use nested for loops with your outer loop counting from 1 to 4. You inner loop should
+   count from 0 to 24, but increase the value of its /loop control variable/ by the value of the /
+   loop control variable/ from the outer loop. This means the incrementing in the /
+   afterthought/ expression will be based on a variable.
