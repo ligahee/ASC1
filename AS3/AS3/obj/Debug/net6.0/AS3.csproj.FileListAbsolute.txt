@@ -1,0 +1,15 @@
+D:\Antra\C_Sharp\AS3\AS3\bin\Debug\net6.0\AS3.exe
+D:\Antra\C_Sharp\AS3\AS3\bin\Debug\net6.0\AS3.deps.json
+D:\Antra\C_Sharp\AS3\AS3\bin\Debug\net6.0\AS3.runtimeconfig.json
+D:\Antra\C_Sharp\AS3\AS3\bin\Debug\net6.0\AS3.dll
+D:\Antra\C_Sharp\AS3\AS3\bin\Debug\net6.0\AS3.pdb
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.csproj.AssemblyReference.cache
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.AssemblyInfoInputs.cache
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.AssemblyInfo.cs
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.csproj.CoreCompileInputs.cache
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.dll
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\refint\AS3.dll
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.pdb
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\AS3.genruntimeconfig.cache
+D:\Antra\C_Sharp\AS3\AS3\obj\Debug\net6.0\ref\AS3.dll
