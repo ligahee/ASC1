@@ -8,19 +8,30 @@ public class Palindromes
         string inputText = Console.ReadLine();
 
         // Extract all palindromes from the input text
-        List<string> palindromes = new List<string>();
+        HashSet<string> palindromes = new HashSet<string>();
         string[] words = inputText.Split(new char[] { ' ', ',', '.', ':', ';', '=', '(', ')', '&', '[', ']', '"', '\'', '\\', '/', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
         foreach (string word in words) {
-            string reversedWord = new string(word.Reverse().ToArray());
-            if (word.Equals(reversedWord, StringComparison.OrdinalIgnoreCase)) {
+            if (isPalindromes(word)) {
                 palindromes.Add(word);
             }
         }
-
-        // Remove duplicates and sort the palindromes
-        palindromes = palindromes.Distinct().OrderBy(p => p).ToList();
-
+        var orderedpalindromes = palindromes.OrderBy(x => x);
         // Print the palindromes
-        Console.WriteLine(string.Join(", ", palindromes));
+        Console.WriteLine(string.Join(", ", orderedpalindromes));
+    }
+    
+    private static bool isPalindromes(String word)
+    {
+        char[] charArray = word.ToCharArray();
+        Array.Reverse(charArray);
+        string reversedString = new string(charArray);
+        if (word.Equals(reversedString))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

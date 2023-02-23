@@ -3,9 +3,9 @@ public class Program
 {
     static void Main(String[] args)
     {
-        Console.Write("1.CopyArray\n 2.ListManager\n 3.FindPrimesInRange\n " +
-                      "4.Rotation and Add\n 5.Longest sequence of equal\n 6.Most frequent number\n" +
-                      "7.ReverseString\n 8.ReverseWord\n 9.Palindromes\n  10.Website\n Enter a number of question: \n");
+        Console.Write("1.CopyArray\n2.ListManager\n3.FindPrimesInRange\n" +
+                      "4.Rotation and Add\n5.Longest sequence of equal\n6.Most frequent number\n" +
+                      "7.ReverseString\n8.ReverseWord\n9.Palindromes\n10.Website\n Enter a number of question: \n");
         int ques = int.Parse(Console.ReadLine());
         if (ques == 1)
         {
