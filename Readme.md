@@ -84,25 +84,53 @@ The record keyword in C# is a new language feature introduced in C# 9.0 that all
     * different input/output
 
 * What is the difference between a field and a property?
+  * field : is a variable that belongs to a class or struct and holds data
+    * Access Control:Fields are typically declared as private or protected
+    * Data Validation: Properties do not include logic to validate data
+    * Data Encapsulation:
+    * Performance: Fields are typically faster than properties because they are accessed directly.
+  * property : is a member that provides a way to read, write, or compute the value of a private field.
+    * Access Control:properties provide access control through their get and set methods.
+    * Data Validation: Properties can include logic to validate data
+    * Data Encapsulation: Properties allow you to encapsulate the implementation details of a class.
 * How do you make a method parameter optional?
+  * To make a method parameter optional in C#, you can use optional parameters. An optional parameter is a parameter that has a default value specified in the method definition.
+  * `public void MyMethod(string requiredParameter, int optionalParameter = 0)
+    {
+    // Method body
+    }`
+  * an optional parameter called optionalParameter, which has a default value of 0. If the optionalParameter value is not provided when the method is called, the default value of 0 will be used.
+
 * What is an interface and how is it different from abstract class?
+  * Interface:
+    * Collections of methods ->default abstract and public, be implemented by the derived classes
+    * one class can implement multiple interfaces
+    * Interface cannot be instantiated
+    * helpful in wittingly loosely coupled code.
+  * Differences:
+    * Interface define common behavior that can be implemented by any class. Abstract class provide a base class to its subclasses, use when we have clear class hierarchy
+    * One class can only inherit from one abstract/concrete class. one class can implement multiple interfaces
+    * Methods in abstract class can be abstract class, or non-abstract methods. Methods in interface are default public and abstract.
 * What accessibility level are members of an interface?
-* True/False. Polymorphism allows derived classes to provide different implementations
+  * all members of an interface are implicitly public, regardless of whether or not they are explicitly declared with an access modifier. This is because interfaces define a contract for implementing classes and the contract must be visible to any class that implements the interface.
+* [True] Polymorphism allows derived classes to provide different implementations
     of the same method.
-* True/False. The override keyword is used to indicate that a method in a derived class is
+* [True] The override keyword is used to indicate that a method in a derived class is
     providing its own implementation of a method.
-* True/False. The new keyword is used to indicate that a method in a derived class is
+* [False] The new keyword is used to indicate that a method in a derived class is
 providing its own implementation of a method.
-* True/False. Abstract methods can be used in a normal (non-abstract) class. 16.
-    True/False. Normal (non-abstract) methods can be used in an abstract class. 17. True/False.
-    Derived classes can override methods that were virtual in the base class. 18. True/False.
-    Derived classes can override methods that were abstract in the base class. 19. True/False.
-    In a derived class, you can override a method that was neither virtual non abstract in the
+  * the new keyword is used to hide a method or property that is defined in the base class. It allows a derived class to define a method or property with the same name as a method or property in the base class, but with a different implementation.
+* [False] Abstract methods can be used in a normal (non-abstract) class. 
+  * An abstract method is a method that is declared in an abstract class or interface, but it has no implementation. It only provides a signature, which means that it specifies the method name, return type, and parameters, but not the code that should be executed when the method is called.
+* [True] Normal (non-abstract) methods can be used in an abstract class. 
+* [True] Derived classes can override methods that were virtual in the base class. 
+* [True] Derived classes can override methods that were abstract in the base class. 
+* [False] In a derived class, you can override a method that was neither virtual non abstract in the
     base class.
-* True/False. A class that implements an interface does not have to provide an
+* [False] A class that implements an interface does not have to provide an
     implementation for all of the members of the interface.
-* True/False. A class that implements an interface is allowed to have other members that
+* [True] A class that implements an interface is allowed to have other members that
 aren’t defined in the interface.
-* True/False. A class can have more than one base class.
-* True/False. A class can implement more than one interface.
+* [False] A class can have more than one base class.
+* [True] A class can implement more than one interface.
 
