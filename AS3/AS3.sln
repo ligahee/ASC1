@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS3", "AS3\AS3.csproj", "{55F0885A-3D02-4DAD-8642-6C8CF99E55B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{55F0885A-3D02-4DAD-8642-6C8CF99E55B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F0885A-3D02-4DAD-8642-6C8CF99E55B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F0885A-3D02-4DAD-8642-6C8CF99E55B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

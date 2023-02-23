@@ -1,0 +1,15 @@
+D:\Antra\C_Sharp\AS3\OOP\bin\Debug\net6.0\OOP.exe
+D:\Antra\C_Sharp\AS3\OOP\bin\Debug\net6.0\OOP.deps.json
+D:\Antra\C_Sharp\AS3\OOP\bin\Debug\net6.0\OOP.runtimeconfig.json
+D:\Antra\C_Sharp\AS3\OOP\bin\Debug\net6.0\OOP.dll
+D:\Antra\C_Sharp\AS3\OOP\bin\Debug\net6.0\OOP.pdb
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.csproj.AssemblyReference.cache
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.AssemblyInfoInputs.cache
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.AssemblyInfo.cs
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.csproj.CoreCompileInputs.cache
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.dll
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\refint\OOP.dll
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.pdb
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\OOP.genruntimeconfig.cache
+D:\Antra\C_Sharp\AS3\OOP\obj\Debug\net6.0\ref\OOP.dll
