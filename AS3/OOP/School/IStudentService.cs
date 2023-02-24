@@ -1,4 +1,6 @@
-﻿namespace OOP;
+﻿using OOP.School;
+
+namespace OOP;
 
 public interface IStudentService : IPersonService
 {

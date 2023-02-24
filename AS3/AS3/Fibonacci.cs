@@ -4,14 +4,22 @@ public class Fibonacci
 {
     public int Fib(int n)
     {
-        if (n == 1 || n ==2)
-        {
+        if (n < 0)
+            throw new Exception("Please input valid number");
+        int result = 0;
+        int f0 = 0;
+        int f1 = 1;
+        if (n == 1)
             return 1;
-        }
-        else
+        while (n > 1)
         {
-            return Fib(n - 1) + Fib(n - 2);
+            result = f0 + f1;
+            f0 = f1;
+            f1 = result;
+            n--;
         }
+
+        return result;
     }
 
     public void printTenNum()

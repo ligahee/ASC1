@@ -1,4 +1,4 @@
-﻿namespace OOP;
+﻿namespace OOP.School;
 
 public abstract class Person
 {

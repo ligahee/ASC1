@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS3", "AS3\AS3.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredBall", "ColoredBall\ColoredBall.csproj", "{F306CA90-456C-46D2-A3B5-528E03F67586}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9577BE05-8C81-4309-BDEF-FA9DB27DE41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F306CA90-456C-46D2-A3B5-528E03F67586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F306CA90-456C-46D2-A3B5-528E03F67586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F306CA90-456C-46D2-A3B5-528E03F67586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F306CA90-456C-46D2-A3B5-528E03F67586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
